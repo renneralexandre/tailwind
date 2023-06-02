@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+		function obterResolucao() {
+			var largura = window.screen.width;
+			var altura = window.screen.height;
+			document.getElementById("resolucao").innerHTML = "Sua resolução é " + largura + " x " + altura;
+		}
+	</script>
+</head>
+<body onload="obterResolucao()" class="bg-indigo-200">
+    <div><p id="resolucao"></p></div>
+    <div class="hidden bg-red-400 iphone-xr-p:flex "> || iphone XR em pé</div>
+    <div class="hidden bg-blue-400 iphone-xr-l:flex "> == iphone XR deitado</div>
+    
+    <div class="hidden bg-green-400 iphone-13-pro-p:flex "> || iphone 13 PRO em pé</div>
+    <div class="hidden bg-orange-400 iphone-13-pro-l:flex ">== iphone 13 PRO deitado</div>
+    
+
+</body>
+</html>

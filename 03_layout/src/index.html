@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03_layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="bg-slate-300">AppBar</h1>
+    <!-- Positions -->
+    <div class="static container m-2 p-1 h-40 bg-orange-400">
+        <h1>Bruna</h1>
+        <div class="absolute top-0 right-0 bg-pink-200">Static Top Right</div>
+        <div class="absolute top-0 left-0 bg-pink-200">Static Top Left</div>
+        <div class="absolute bottom-0 right-0 bg-pink-200">Static Botton Right</div>
+        <div class="absolute bottom-0 left-0 bg-pink-200">Static Botton Left</div>
+    </div>
+    <div class="relative container m-2 p-1 h-40 bg-violet-100">
+        <div class="absolute top-0 right-0 bg-pink-200">Relative Top Right</div>
+        <div class="absolute top-0 left-0 bg-pink-200">Relative Top Left</div>
+        <div class="absolute bottom-0 right-0 bg-pink-200">Relative Botton Right</div>
+        <div class="absolute bottom-0 left-0 bg-pink-200">Relative Botton Left</div>
+    </div>
+    <div class="static container m-2 p-1 h-40 bg-violet-100">
+        <div class="static bg-pink-200">Relative Top Right</div>
+        <div class="inline-block bg-pink-200">Relative Top Left</div>
+    </div>
+    <div class="static container m-2 p-1 h-40 bg-violet-100">
+        <div class="absolute bg-pink-200">static-absolute</div>
+        <div class="inline-block bg-pink-200">Relative Top Left</div>
+    </div>
+
+
+</body>
+</html>
